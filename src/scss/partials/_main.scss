@@ -1,0 +1,126 @@
+.jumbo {
+  @include main-container;
+  height: 500px;
+  margin-top: 5%;
+  font-size: 2.5em;
+
+  .heading-col {
+    width: 50%;
+    float: left;
+    height: 100%;
+
+      .heading-image {
+        height: 100%;
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .heading-text h5 {
+        margin-top: 5%;
+      }
+
+      .signing-buttons {
+        margin-top: 3%;
+
+        span {
+          font-size: .5em;
+          font-weight: bold;
+        }
+
+        button {
+          @include button-style;
+          width: 250px;
+          font-size: 1em;
+          vertical-align: middle;
+          height: 30px;
+          padding-bottom: 5.5%;
+
+            img {
+              width: $logo_width;
+              margin-bottom: 4.3%;
+            }
+
+            span {
+              vertical-align: super;
+            }
+          }
+        }
+      }
+  }
+
+.container-main {
+  width: 100%;
+  background-color: $primary_background_color;
+
+  .main-section-container {
+    @include main-container;
+    padding-top: 2%;
+    height: 500px;
+
+    &.last-div {
+      height: 525px;
+    }
+
+    .box-title {
+      height: 100px;
+      text-align: center;
+      font-weight: bold;
+      width: 50%;
+      margin: auto;
+
+      &.last h2 {
+        margin-top: 8%;
+      }
+
+
+      h2 {
+        margin-top: 2%;
+      }
+    }
+
+    .box-section {
+      height: 400px;
+
+        .main-boxes {
+          float: left;
+          width: 33%;
+
+          .box-image {
+            height: 90%;
+            display: flex;
+            justify-content: center;
+
+            img {
+              height: 150px;
+            }
+          }
+
+          .box-text {
+            margin-top: 6%;
+            height: 10%;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .single-box {
+      width: 33%;
+      margin: -4% auto 0 auto;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .divisor {
+      width: 90%;
+      margin: auto;
+      height: 1.6px;
+      background-color: $font_color;
+      margin-bottom: 2.5%;
+    }
+}

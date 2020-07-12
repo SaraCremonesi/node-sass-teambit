@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  color: #380c0c;
+}
+
+a {
+  text-decoration: none;
+  color: #380c0c;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.header-wrapper .nav-bar {
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #380c0c;
+  display: flex;
+}
+
+.header-wrapper .nav-bar .nav-col {
+  height: 100%;
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper .nav-bar .nav-col.right {
+  justify-content: flex-end;
+}
+
+.header-wrapper .nav-bar .nav-col.right.left {
+  justify-content: center;
+}
+
+.header-wrapper .nav-bar .nav-col.right .menu {
+  width: 100%;
+}
+
+.header-wrapper .nav-bar .nav-col.right .menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-wrapper .nav-bar .nav-col.right .menu ul li {
+  display: inline-block;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 4%;
+}
+
+.header-wrapper .nav-bar .nav-col.right .menu ul li i {
+  vertical-align: bottom;
+}
+
+.header-wrapper .nav-bar .nav-col.right .menu ul li button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3%;
+  width: 90px;
+}
+
+.header-wrapper .nav-bar .nav-col.right .menu ul li button img {
+  width: 20px;
+  margin-top: 3%;
+}
+
+.header-wrapper .nav-bar .nav-col.right .menu ul li button span {
+  vertical-align: super;
+}
+
+.header-wrapper .nav-bar .burger-menu {
+  display: none;
+}
+
+.jumbo {
+  width: 90%;
+  margin: auto;
+  height: 500px;
+  margin-top: 5%;
+  font-size: 2.5em;
+}
+
+.jumbo .heading-col {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.jumbo .heading-col .heading-image {
+  height: 100%;
+  width: 100%;
+}
+
+.jumbo .heading-col .heading-image img {
+  width: 100%;
+}
+
+.jumbo .heading-col .heading-text h5 {
+  margin-top: 5%;
+}
+
+.jumbo .heading-col .signing-buttons {
+  margin-top: 3%;
+}
+
+.jumbo .heading-col .signing-buttons span {
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+.jumbo .heading-col .signing-buttons button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  font-size: 1em;
+  vertical-align: middle;
+  height: 30px;
+  padding-bottom: 5.5%;
+}
+
+.jumbo .heading-col .signing-buttons button img {
+  width: 20px;
+  margin-bottom: 4.3%;
+}
+
+.jumbo .heading-col .signing-buttons button span {
+  vertical-align: super;
+}
+
+.container-main {
+  width: 100%;
+  background-color: #f0cece;
+}
+
+.container-main .main-section-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 2%;
+  height: 500px;
+}
+
+.container-main .main-section-container.last-div {
+  height: 525px;
+}
+
+.container-main .main-section-container .box-title {
+  height: 100px;
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+}
+
+.container-main .main-section-container .box-title.last h2 {
+  margin-top: 8%;
+}
+
+.container-main .main-section-container .box-title h2 {
+  margin-top: 2%;
+}
+
+.container-main .main-section-container .box-section {
+  height: 400px;
+}
+
+.container-main .main-section-container .box-section .main-boxes {
+  float: left;
+  width: 33%;
+}
+
+.container-main .main-section-container .box-section .main-boxes .box-image {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-main .main-section-container .box-section .main-boxes .box-image img {
+  height: 150px;
+}
+
+.container-main .main-section-container .box-section .main-boxes .box-text {
+  margin-top: 6%;
+  height: 10%;
+  text-align: center;
+}
+
+.container-main .single-box {
+  width: 33%;
+  margin: -4% auto 0 auto;
+}
+
+.container-main .single-box img {
+  width: 100%;
+}
+
+.container-main .divisor {
+  width: 90%;
+  margin: auto;
+  height: 1.6px;
+  background-color: #380c0c;
+  margin-bottom: 2.5%;
+}
+
+@media all and (max-width: 900px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .menu ul {
+    display: none;
+  }
+}
+

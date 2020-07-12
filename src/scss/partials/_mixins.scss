@@ -1,0 +1,15 @@
+@mixin button-style {
+  background-color: $button_background_color;
+  color: $button_text_color;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@mixin main-container {
+  width: 90%;
+  margin: auto;
+}
+
+@mixin float {
+  float: left;
+}
