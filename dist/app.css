@@ -96,9 +96,8 @@ i {
 .jumbo {
   width: 90%;
   margin: auto;
-  height: 500px;
   margin-top: 5%;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .jumbo .heading-col {
@@ -153,6 +152,7 @@ i {
 .container-how {
   width: 100%;
   background-color: #f0cece;
+  margin-top: 500px;
 }
 
 .container-how .main-section-container {
@@ -178,7 +178,7 @@ i {
 }
 
 .container-how .main-section-container .box-section {
-  height: 360px;
+  margin-bottom: 45%;
 }
 
 .container-how .main-section-container .box-section .main-boxes {
@@ -220,67 +220,86 @@ i {
   margin-top: 5%;
 }
 
-.container-learn {
-  width: 100%;
-  margin-top: 5%;
-}
-
-.container-learn .left-container {
-  float: left;
-  width: 80%;
-  background-color: red;
+.container-main-second {
   height: 700px;
+  width: 100%;
 }
 
-.container-learn .left-container .left-image {
-  float: left;
-  width: 70%;
-  background-color: pink;
-  height: 100%;
+.container-main-second .container-get {
+  background-color: #f0cece;
 }
 
-.container-learn .left-container .left-image img {
-  height: 420px;
+.container-main-second .container-get h1 {
+  text-align: center;
 }
 
-.container-learn .left-container .left-text {
-  background-color: yellow;
-  height: 100%;
-  font-weight: bold;
-  font-size: 1.8em;
+.container-main-second .container-get h1 img {
+  width: 25px;
 }
 
-.container-learn .left-container .left-text h3 {
-  margin-bottom: 3%;
-  margin-top: 3%;
+.container-main-second .container-get .container-founders {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  border: 1px solid blue;
+  margin-top: 5%;
+  position: relative;
 }
 
-.container-learn .left-container .left-text p {
-  margin-bottom: 3%;
-  font-weight: normal;
-}
-
-.container-learn .left-container .left-text span {
+.container-main-second .container-get .container-founders i {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  font-size: 2.5em;
   color: blue;
 }
 
-.container-learn .left-container .left-text .left-text-image {
-  height: 327px;
+.container-main-second .container-get .container-founders .image-founders {
+  padding-top: 7%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-main-second .container-get .container-founders .image-founders img {
+  max-height: 80px;
+}
+
+.container-main-second .container-get .container-founders .image-founders .founders-names {
+  align-items: center;
+  padding-top: 5%;
+}
+
+.container-main-second .container-get .container-founders .image-founders .founders-names p:first-child {
+  color: blue;
+}
+
+.container-main-second .container-get .signing-buttons {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.container-main-second .container-get .signing-buttons span {
+  font-weight: bold;
+}
+
+.container-main-second .container-get .signing-buttons button {
   background-color: blue;
-  width: 303px;
-  float: right;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  vertical-align: middle;
+  padding: 3px;
 }
 
-.container-learn .left-container .left-text .left-text-image img {
-  width: 100%;
-  margin-top: 50px;
+.container-main-second .container-get .signing-buttons button img {
+  width: 20px;
 }
 
-.container-learn .right-container {
-  float: right;
-  width: 80%;
-  background-color: black;
-  height: 700px;
+.container-main-second .container-get .signing-buttons button span {
+  vertical-align: super;
 }
 
 @media all and (max-width: 900px) {
@@ -290,6 +309,54 @@ i {
 
   .header-wrapper .nav-bar .nav-col.right .menu ul {
     display: none;
+  }
+
+  .get-started h1 {
+    padding-bottom: 5%;
+  }
+}
+
+@media all and (max-width: 743px) {
+  .jumbo .heading-col .heading-image img {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1058px) {
+  .container-how .box-text {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .image-founders img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .founders-names {
+    margin-left: 5%;
+  }
+
+  .container-how {
+    margin-top: 600px;
+  }
+}
+
+@media all and (max-width: 798px) {
+  .container-how .main-section-container .box-section .main-boxes {
+    float: none;
+    width: auto;
+    margin-bottom: 10%;
+  }
+}
+
+@media all and (max-width: 565px) {
+  .signing-buttons .hide {
+    display: none;
+  }
+
+  .container-how {
+    margin-top: 800px;
   }
 }
 

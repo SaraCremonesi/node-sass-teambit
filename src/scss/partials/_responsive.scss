@@ -6,4 +6,48 @@
   .header-wrapper .nav-bar .nav-col.right .menu ul {
     display: none;
   }
+
+  .get-started h1 {
+    padding-bottom: 5%;
+  }
+}
+
+@media all and (max-width: 743px) {
+  .jumbo .heading-col .heading-image img {
+    display: none;
+  }
+}
+
+ @media all and (max-width: 1058px) {
+   .container-how .box-text {
+     margin-left: 3%;
+     margin-right: 3%;
+   }
+   .image-founders img {
+     width: 50px;
+     height: 50px;
+   }
+   .founders-names {
+   margin-left: 5%;
+  }
+  .container-how {
+    margin-top: 600px;
+  }
+ }
+
+ @media all and (max-width: 798px) {
+   .container-how .main-section-container .box-section .main-boxes {
+      float: none;
+      width: auto;
+      margin-bottom: 10%;
+   }
+ }
+
+ @media all and (max-width: 565px) {
+   .signing-buttons .hide {
+     display: none;
+   }
+   .container-how {
+     margin-top: 800px;
+  }
 }
