@@ -25,7 +25,7 @@
 
        ul {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: flex-end;
 
           li {
@@ -40,12 +40,11 @@
 
               button {
                 @include button-style;
-                padding: 3%;
                 width: 90px;
 
                 img {
                   width: $logo_width;
-                  margin-top: 3%;
+                  vertical-align: unset;
                 }
 
                 span {
@@ -57,9 +56,35 @@
         }
       }
     }
+  }
+}
 
-    .burger-menu {
-      display: none;
+.container-fluid {
+  margin-top: 5%;
+
+  h1 {
+    margin-bottom: 5%;
+  }
+
+  h5 {
+    margin-bottom: 5%;
+  }
+
+  .image-box img {
+    width: 100%;
+  }
+
+  .signing-buttons button {
+    @include button-style;
+    width: 190px;
+
+    img {
+      width: $logo_width;
+      vertical-align: unset;
+    }
+
+    span {
+      vertical-align: super;
     }
   }
 }

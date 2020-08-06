@@ -56,7 +56,7 @@ i {
 
 .header-wrapper .nav-bar .nav-col.right .menu ul {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-end;
 }
 
@@ -76,287 +76,48 @@ i {
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  padding: 3%;
   width: 90px;
 }
 
 .header-wrapper .nav-bar .nav-col.right .menu ul li button img {
   width: 20px;
-  margin-top: 3%;
+  vertical-align: unset;
 }
 
 .header-wrapper .nav-bar .nav-col.right .menu ul li button span {
   vertical-align: super;
 }
 
-.header-wrapper .nav-bar .burger-menu {
-  display: none;
-}
-
-.jumbo {
-  width: 90%;
-  margin: auto;
-  margin-top: 5%;
-  font-size: 2em;
-}
-
-.jumbo .heading-col {
-  width: 50%;
-  float: left;
-  height: 100%;
-}
-
-.jumbo .heading-col .heading-image {
-  height: 100%;
-  width: 100%;
-}
-
-.jumbo .heading-col .heading-image img {
-  width: 100%;
-}
-
-.jumbo .heading-col .heading-text h5 {
+.container-fluid {
   margin-top: 5%;
 }
 
-.jumbo .heading-col .signing-buttons {
-  margin-top: 3%;
+.container-fluid h1 {
+  margin-bottom: 5%;
 }
 
-.jumbo .heading-col .signing-buttons span {
-  font-size: 0.5em;
-  font-weight: bold;
+.container-fluid h5 {
+  margin-bottom: 5%;
 }
 
-.jumbo .heading-col .signing-buttons button {
+.container-fluid .image-box img {
+  width: 100%;
+}
+
+.container-fluid .signing-buttons button {
   background-color: blue;
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  width: 250px;
-  font-size: 1em;
-  vertical-align: middle;
-  height: 30px;
-  padding-bottom: 5.5%;
+  width: 190px;
 }
 
-.jumbo .heading-col .signing-buttons button img {
+.container-fluid .signing-buttons button img {
   width: 20px;
-  margin-bottom: 4.3%;
+  vertical-align: unset;
 }
 
-.jumbo .heading-col .signing-buttons button span {
+.container-fluid .signing-buttons button span {
   vertical-align: super;
-}
-
-.container-how {
-  width: 100%;
-  background-color: #f0cece;
-  margin-top: 500px;
-}
-
-.container-how .main-section-container {
-  width: 90%;
-  margin: auto;
-  padding-top: 2%;
-}
-
-.container-how .main-section-container .box-title {
-  padding-bottom: 5%;
-  text-align: center;
-  font-weight: bold;
-  width: 50%;
-  margin: auto;
-}
-
-.container-how .main-section-container .box-title.last h2 {
-  margin-top: 8%;
-}
-
-.container-how .main-section-container .box-title h2 {
-  margin-top: 2%;
-}
-
-.container-how .main-section-container .box-section {
-  margin-bottom: 45%;
-}
-
-.container-how .main-section-container .box-section .main-boxes {
-  float: left;
-  width: 33%;
-}
-
-.container-how .main-section-container .box-section .main-boxes .box-image {
-  height: 90%;
-  display: flex;
-  justify-content: center;
-}
-
-.container-how .main-section-container .box-section .main-boxes .box-image img {
-  height: 150px;
-}
-
-.container-how .main-section-container .box-section .main-boxes .box-text {
-  margin-top: 6%;
-  height: 10%;
-  text-align: center;
-}
-
-.container-how .single-box {
-  width: 33%;
-  margin: -4% auto 0 auto;
-}
-
-.container-how .single-box img {
-  width: 100%;
-}
-
-.container-how .divisor {
-  width: 90%;
-  margin: auto;
-  height: 1.6px;
-  background-color: #380c0c;
-  margin-bottom: 2.5%;
-  margin-top: 5%;
-}
-
-.container-main-second {
-  height: 700px;
-  width: 100%;
-}
-
-.container-main-second .container-get {
-  background-color: #f0cece;
-}
-
-.container-main-second .container-get h1 {
-  text-align: center;
-}
-
-.container-main-second .container-get h1 img {
-  width: 25px;
-}
-
-.container-main-second .container-get .container-founders {
-  width: 50%;
-  margin: auto;
-  background-color: white;
-  border-radius: 10px;
-  padding: 25px;
-  border: 1px solid blue;
-  margin-top: 5%;
-  position: relative;
-}
-
-.container-main-second .container-get .container-founders i {
-  position: absolute;
-  top: -25px;
-  left: 0;
-  font-size: 2.5em;
-  color: blue;
-}
-
-.container-main-second .container-get .container-founders .image-founders {
-  padding-top: 7%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.container-main-second .container-get .container-founders .image-founders img {
-  max-height: 80px;
-}
-
-.container-main-second .container-get .container-founders .image-founders .founders-names {
-  align-items: center;
-  padding-top: 5%;
-}
-
-.container-main-second .container-get .container-founders .image-founders .founders-names p:first-child {
-  color: blue;
-}
-
-.container-main-second .container-get .signing-buttons {
-  margin-top: 3%;
-  text-align: center;
-}
-
-.container-main-second .container-get .signing-buttons span {
-  font-weight: bold;
-}
-
-.container-main-second .container-get .signing-buttons button {
-  background-color: blue;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 250px;
-  vertical-align: middle;
-  padding: 3px;
-}
-
-.container-main-second .container-get .signing-buttons button img {
-  width: 20px;
-}
-
-.container-main-second .container-get .signing-buttons button span {
-  vertical-align: super;
-}
-
-@media all and (max-width: 900px) {
-  .header-wrapper .nav-bar .burger-menu {
-    display: block;
-  }
-
-  .header-wrapper .nav-bar .nav-col.right .menu ul {
-    display: none;
-  }
-
-  .get-started h1 {
-    padding-bottom: 5%;
-  }
-}
-
-@media all and (max-width: 743px) {
-  .jumbo .heading-col .heading-image img {
-    display: none;
-  }
-}
-
-@media all and (max-width: 1058px) {
-  .container-how .box-text {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-
-  .image-founders img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .founders-names {
-    margin-left: 5%;
-  }
-
-  .container-how {
-    margin-top: 600px;
-  }
-}
-
-@media all and (max-width: 798px) {
-  .container-how .main-section-container .box-section .main-boxes {
-    float: none;
-    width: auto;
-    margin-bottom: 10%;
-  }
-}
-
-@media all and (max-width: 565px) {
-  .signing-buttons .hide {
-    display: none;
-  }
-
-  .container-how {
-    margin-top: 800px;
-  }
 }
 

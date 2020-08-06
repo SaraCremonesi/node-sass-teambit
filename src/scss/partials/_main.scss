@@ -1,125 +1,125 @@
-.jumbo {
-  @include main-container;
-  margin-top: 5%;
-  font-size: 2em;
-
-  .heading-col {
-    width: 50%;
-    float: left;
-    height: 100%;
-
-      .heading-image {
-        height: 100%;
-        width: 100%;
-
-        img {
-          width: 100%;
-        }
-      }
-
-      .heading-text h5 {
-        margin-top: 5%;
-      }
-
-      .signing-buttons {
-        margin-top: 3%;
-
-        span {
-          font-size: .5em;
-          font-weight: bold;
-        }
-
-        button {
-          @include button-style;
-          width: 250px;
-          font-size: 1em;
-          vertical-align: middle;
-          height: 30px;
-          padding-bottom: 5.5%;
-
-            img {
-              width: $logo_width;
-              margin-bottom: 4.3%;
-            }
-
-            span {
-              vertical-align: super;
-            }
-          }
-        }
-      }
-  }
-
-.container-how {
-  width: 100%;
-  background-color: $primary_background_color;
-  margin-top: 500px;
-
-  .main-section-container {
-    @include main-container;
-    padding-top: 2%;
-
-    .box-title {
-      padding-bottom: 5%;
-      text-align: center;
-      font-weight: bold;
-      width: 50%;
-      margin: auto;
-
-      &.last h2 {
-        margin-top: 8%;
-      }
-
-
-      h2 {
-        margin-top: 2%;
-      }
-    }
-
-    .box-section {
-        margin-bottom: 45%;
-
-        .main-boxes {
-          float: left;
-          width: 33%;
-
-          .box-image {
-            height: 90%;
-            display: flex;
-            justify-content: center;
-
-            img {
-              height: 150px;
-            }
-          }
-
-          .box-text {
-            margin-top: 6%;
-            height: 10%;
-            text-align: center;
-          }
-        }
-      }
-    }
-
-    .single-box {
-      width: 33%;
-      margin: -4% auto 0 auto;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .divisor {
-      width: 90%;
-      margin: auto;
-      height: 1.6px;
-      background-color: $font_color;
-      margin-bottom: 2.5%;
-      margin-top: 5%;
-    }
-}
+// .jumbo {
+//   @include main-container;
+//   margin-top: 5%;
+//   font-size: 2em;
+//
+//   .heading-col {
+//     width: 50%;
+//     float: left;
+//     height: 100%;
+//
+//       .heading-image {
+//         height: 100%;
+//         width: 100%;
+//
+//         img {
+//           width: 100%;
+//         }
+//       }
+//
+//       .heading-text h5 {
+//         margin-top: 5%;
+//       }
+//
+//       .signing-buttons {
+//         margin-top: 3%;
+//
+//         span {
+//           font-size: .5em;
+//           font-weight: bold;
+//         }
+//
+//         button {
+//           @include button-style;
+//           width: 250px;
+//           font-size: 1em;
+//           vertical-align: middle;
+//           height: 30px;
+//           padding-bottom: 5.5%;
+//
+//             img {
+//               width: $logo_width;
+//               margin-bottom: 4.3%;
+//             }
+//
+//             span {
+//               vertical-align: super;
+//             }
+//           }
+//         }
+//       }
+//   }
+//
+// .container-how {
+//   width: 100%;
+//   background-color: $primary_background_color;
+//   margin-top: 500px;
+//
+//   .main-section-container {
+//     @include main-container;
+//     padding-top: 2%;
+//
+//     .box-title {
+//       padding-bottom: 5%;
+//       text-align: center;
+//       font-weight: bold;
+//       width: 50%;
+//       margin: auto;
+//
+//       &.last h2 {
+//         margin-top: 8%;
+//       }
+//
+//
+//       h2 {
+//         margin-top: 2%;
+//       }
+//     }
+//
+//     .box-section {
+//         margin-bottom: 45%;
+//
+//         .main-boxes {
+//           float: left;
+//           width: 33%;
+//
+//           .box-image {
+//             height: 90%;
+//             display: flex;
+//             justify-content: center;
+//
+//             img {
+//               height: 150px;
+//             }
+//           }
+//
+//           .box-text {
+//             margin-top: 6%;
+//             height: 10%;
+//             text-align: center;
+//           }
+//         }
+//       }
+//     }
+//
+//     .single-box {
+//       width: 33%;
+//       margin: -4% auto 0 auto;
+//
+//       img {
+//         width: 100%;
+//       }
+//     }
+//
+//     .divisor {
+//       width: 90%;
+//       margin: auto;
+//       height: 1.6px;
+//       background-color: $font_color;
+//       margin-bottom: 2.5%;
+//       margin-top: 5%;
+//     }
+// }
 
 // .container-learn {
 //   width: 100%;
@@ -215,80 +215,80 @@
 //     }
 //   }
 
- .container-main-second {
-   height: 700px;
-   width: 100%;
-
-   .container-get {
-     background-color: $primary_background_color;
-
-     h1 {
-       text-align: center;
-
-       img {
-         width: 25px;
-       }
-     }
-
-     .container-founders {
-       width: 50%;
-       margin: auto;
-       background-color: white;
-       border-radius: 10px;
-       padding: 25px;
-       border: 1px solid blue;
-       margin-top: 5%;
-       position: relative;
-
-       i {
-         position: absolute;
-         top: -25px;
-         left: 0;
-         font-size: 2.5em;
-         color: blue;
-       }
-
-       .image-founders {
-         padding-top: 7%;
-         display: flex;
-         justify-content: space-around;
-
-         img {
-           max-height: 80px;
-         }
-
-         .founders-names {
-           align-items: center;
-           padding-top: 5%;
-
-           p:first-child {
-             color: blue;
-           }
-         }
-       }
-   }
-   .signing-buttons {
-     margin-top: 3%;
-     text-align: center;
-
-     span {
-       font-weight: bold;
-     }
-
-     button {
-       @include button-style;
-       width: 250px;
-       vertical-align: middle;
-       padding: 3px;
-
-         img {
-           width: $logo_width;
-         }
-
-         span {
-           vertical-align: super;
-         }
-       }
-     }
- }
-}
+//  .container-main-second {
+//    height: 700px;
+//    width: 100%;
+//
+//    .container-get {
+//      background-color: $primary_background_color;
+//
+//      h1 {
+//        text-align: center;
+//
+//        img {
+//          width: 25px;
+//        }
+//      }
+//
+//      .container-founders {
+//        width: 50%;
+//        margin: auto;
+//        background-color: white;
+//        border-radius: 10px;
+//        padding: 25px;
+//        border: 1px solid blue;
+//        margin-top: 5%;
+//        position: relative;
+//
+//        i {
+//          position: absolute;
+//          top: -25px;
+//          left: 0;
+//          font-size: 2.5em;
+//          color: blue;
+//        }
+//
+//        .image-founders {
+//          padding-top: 7%;
+//          display: flex;
+//          justify-content: space-around;
+//
+//          img {
+//            max-height: 80px;
+//          }
+//
+//          .founders-names {
+//            align-items: center;
+//            padding-top: 5%;
+//
+//            p:first-child {
+//              color: blue;
+//            }
+//          }
+//        }
+//    }
+//    .signing-buttons {
+//      margin-top: 3%;
+//      text-align: center;
+//
+//      span {
+//        font-weight: bold;
+//      }
+//
+//      button {
+//        @include button-style;
+//        width: 250px;
+//        vertical-align: middle;
+//        padding: 3px;
+//
+//          img {
+//            width: $logo_width;
+//          }
+//
+//          span {
+//            vertical-align: super;
+//          }
+//        }
+//      }
+//  }
+// }
